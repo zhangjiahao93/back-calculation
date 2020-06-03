@@ -1,4 +1,5 @@
 {
+  "url": "git@github.com:zhangjiahao93/back-calculation.git",
   "name": "back-calculation",
   "version": "1.0.0",
   "description": "Calculate the number by the sum",
