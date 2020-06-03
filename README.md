@@ -1,6 +1,12 @@
 # back-calculation
 Calculate the number by the sum
 
+# install
+```
+yarn add back-calculation 
+# or
+npm install back-calculation 
+```
 
 # use 
 ```
