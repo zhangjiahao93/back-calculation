@@ -10,6 +10,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhangjiahao93/back-calculation.git",
-  },
+    "url": "git@github.com:zhangjiahao93/back-calculation.git"
+  }
 }
