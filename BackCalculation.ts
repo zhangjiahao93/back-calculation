@@ -23,6 +23,7 @@ export default class BackCalculation {
   constructor(config: SquareConfig) {
     this.input = config.input;
     this.sum = config.sum;
+    this.compute();
   }
   /**
    * 递归列出所有可能性
@@ -63,7 +64,7 @@ export default class BackCalculation {
     return this.filterRows;
   }
 
-  public compute(): TArray {
+  private compute(): void {
     const input = this.input;
     this.tmpKeys = [];
     //几种可能：1数,2数相加？3,4,5....n
@@ -89,8 +90,6 @@ export default class BackCalculation {
         return input[vv - 1];
       });
     });
-
-    return this.filterValues
   }
 }
 

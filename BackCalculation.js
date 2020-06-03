@@ -10,6 +10,7 @@ var BackCalculation = /** @class */ (function () {
     function BackCalculation(config) {
         this.input = config.input;
         this.sum = config.sum;
+        this.compute();
     }
     /**
      * 递归列出所有可能性
@@ -66,6 +67,7 @@ var BackCalculation = /** @class */ (function () {
             });
             return sum === _this.sum;
         });
+        //按从小到大排序
         this.filterRows.forEach(function (element) {
             element.sort(function (a, b) { return a - b; });
         });
@@ -75,7 +77,6 @@ var BackCalculation = /** @class */ (function () {
                 return input[vv - 1];
             });
         });
-        return this.filterValues;
     };
     return BackCalculation;
 }());
