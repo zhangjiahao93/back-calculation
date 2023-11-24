@@ -1,2 +1,2 @@
-import BackCalculation from "BackCalculation";
+import BackCalculation from "./src/BackCalculation";
 export default BackCalculation;
