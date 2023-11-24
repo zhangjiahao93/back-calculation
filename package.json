@@ -1,8 +1,9 @@
 {
   "name": "back-calculation",
-  "version": "1.2.0",
-  "description": "Calculate the number by the sum",
-  "main": "BackCalculation.js",
+  "version": "2.0.0",
+  "description": "calculate the number by the sum",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
